@@ -26,24 +26,24 @@ namespace Example7
 
             //文字方、文字列型
             char vaLueChar = 'A';
-           // string valueString=C# PROGRAM;
+            string valueString=C# PROGRAM;
 
                 //論理型
-               // booL walueBooL = true;
+                booL walueBooL = true;
 
-            Console.WriteLine("sbyte  : {0}", vaLueSByte);
-           // Console.WriteLine("byte  : {0}", vaLueByte);
-            Console.WriteLine("short  : {0}", vaLueShort);
-           // Console.WriteLine("ushort  : {0}", vaLueUShort);
-            Console.WriteLine("int  : {0}", vaLueInt);
-            Console.WriteLine("uint  : {0}", vaLueLong);
-            Console.WriteLine("Long  : {0}", vaLueLong);
-          //  Console.WriteLine("uLong  : {0}", vaLueULong);
-          //  Console.WriteLine("fLoat  : {0}", vaLueFLoat);
-          //  Console.WriteLine("double  : {0}", vaLueDouble);
-            Console.WriteLine("char  : {0}", vaLueChar);
-           // Console.WriteLine("string  : {0}", vaLueString);
-           // Console.WriteLine("bool  : {0}", vaLueBool);
+            Console.WriteLine("{1}  : {0}", vaLueSByte,vaLueSByte.GetType().Name);
+            Console.WriteLine("{1}  : {0}", vaLueByte, vaLueByte.GetType().Name);
+            Console.WriteLine("{1}  : {0}", vaLueShort, vaLueShort.GetType().Name);
+            Console.WriteLine("{1}  : {0}", vaLueUShort, vaLueUShort.GetType().Name);
+            Console.WriteLine("{1}  : {0}", vaLueInt, vaLueInt.GetType().Name);
+            Console.WriteLine("{1}  : {0}", vaLueLong, vaLueLong.GetType().Name);
+            Console.WriteLine("{1}  : {0}", vaLueLong, vaLueLong.GetType().Name);
+            Console.WriteLine("{1}  : {0}", vaLueULong, vaLueULong.GetType().Name);
+            Console.WriteLine("{1}  : {0}", vaLueFLoat, vaLueFLoat.GetType().Name);
+            Console.WriteLine("{1}  : {0}", vaLueDouble, vaLueDouble.GetType().Name);
+            Console.WriteLine("{1}  : {0}", vaLueChar, vaLueChar.GetType().Name);
+            Console.WriteLine("{1}  : {0}", vaLueString, vaLueString.GetType().Name);
+            Console.WriteLine("{1}  : {0}", vaLueBool, vaLueBool.GetType().Name);
         }
     }
 }
