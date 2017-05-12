@@ -16,9 +16,9 @@ namespace Example6
             String name;//String型(文字列型)
 
             //変数への代入
-            score = 25;
+            score = 0.5;
             pai = 3.1415;
-            name = "TARO";
+            name = "TARO";//lll
 
             //減数に格納された値を画面に表示
             Console.WriteLine("SCORE={0}", score);
