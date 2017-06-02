@@ -9,11 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace game
-{
-    
+{   
     public partial class 上 : Form
     {
-        int speed = 10;
+        int speed = 40;
         int movex;
         int movey;
         

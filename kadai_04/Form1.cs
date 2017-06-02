@@ -39,10 +39,7 @@ namespace kadai04
             {
                 m = "大凶";
             }
-           
+            label1.Text = m;
         }
-        
-        Label=
-        Labe1l.Text= m;
     }
 }
